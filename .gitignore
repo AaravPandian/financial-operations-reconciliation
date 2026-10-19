@@ -1,0 +1,22 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.DS_Store
+.idea/
+.vscode/
+
+# Exported case details and local analyst reviews
+outputs/*.csv
+!outputs/.gitkeep
+
+# Logs/temp
+*.log
+*.tmp
+.streamlit/secrets.toml

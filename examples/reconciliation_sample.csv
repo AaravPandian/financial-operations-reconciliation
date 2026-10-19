@@ -1,0 +1,17 @@
+case_id,transaction_id,ledger_rows,ledger_date,ledger_amount_pence,ledger_currency,counterparty,ledger_reference,bank_rows,bank_date,bank_amount_pence,bank_currency,bank_reference,bank_entry_id,status,priority,reason,amount_difference_pence,date_lag_days,case_date
+TXN-0000089,TXN-0000089,1,2026-01-29,194924,GBP,Atlas Systems,INV-14948,1,2026-01-30,199918,GBP,INV-14948,BNK-0000090,amount_mismatch,High,Signed amounts do not agree,4994,1,2026-01-29
+TXN-0000181,TXN-0000181,1,2026-01-21,36611,GBP,Summit Digital,INV-68901,1,2026-01-22,40430,GBP,INV-68901,BNK-0000180,amount_mismatch,High,Signed amounts do not agree,3819,1,2026-01-21
+TXN-0000257,TXN-0000257,1,2026-03-06,444120,GBP,Bluefin Foods,INV-95140,1,2026-03-06,444120,EUR,INV-95140,BNK-0000256,currency_mismatch,High,Currencies do not agree,,0,2026-03-06
+TXN-0000433,TXN-0000433,1,2026-03-05,321390,GBP,Summit Digital,INV-92207,1,2026-03-06,321390,EUR,INV-92207,BNK-0000430,currency_mismatch,High,Currencies do not agree,,1,2026-03-05
+TXN-0000001,TXN-0000001,1,2026-01-17,84873,GBP,Northstar Retail Ltd,INV-43425,1,2026-01-24,84873,GBP,INV-43425,BNK-0000001,date_mismatch,Medium,Outside ±2 calendar-day window,0,7,2026-01-17
+TXN-0000023,TXN-0000023,1,2026-01-14,152457,GBP,Cedar Hospitality,INV-49498,1,2026-01-20,152457,GBP,INV-49498,BNK-0000021,date_mismatch,Medium,Outside ±2 calendar-day window,0,6,2026-01-14
+TXN-0000043,TXN-0000043,1,2026-01-03,445928,GBP,Cedar Hospitality,INV-14088,2,2026-01-05,,GBP,INV-14088,BNK-0000041,duplicate_bank,High,Repeated transaction ID in bank statement,,,2026-01-03
+TXN-0000062,TXN-0000062,1,2026-01-03,-128253,GBP,Cedar Hospitality,INV-85168,2,2026-01-03,,GBP,INV-85168,BNK-0000061,duplicate_bank,High,Repeated transaction ID in bank statement,,,2026-01-03
+TXN-0000033,TXN-0000033,2,2026-01-10,,GBP,Meridian Services,INV-42858,1,2026-01-10,152885,GBP,INV-42858,BNK-0000031,duplicate_ledger,High,Repeated transaction ID in ledger,,,2026-01-10
+TXN-0000134,TXN-0000134,2,2026-02-21,,GBP,Harbour Logistics,INV-20369,1,2026-02-22,445568,GBP,INV-20369,BNK-0000135,duplicate_ledger,High,Repeated transaction ID in ledger,,,2026-02-21
+TXN-0000002,TXN-0000002,1,2026-01-20,21440,GBP,Cedar Hospitality,INV-52287,1,2026-01-20,21440,GBP,INV-52287,BNK-0000002,matched,None,"ID, currency, amount and date checks passed",0,0,2026-01-20
+TXN-0000003,TXN-0000003,1,2026-03-22,323256,GBP,Maple & Co,INV-49472,1,2026-03-24,323256,GBP,INV-49472,BNK-0000003,matched,None,"ID, currency, amount and date checks passed",0,2,2026-03-22
+TXN-0000016,TXN-0000016,1,2026-01-14,108282,GBP,Meridian Services,INV-67047,0,,,,,,missing_bank,High,Ledger transaction absent from bank statement,,,2026-01-14
+TXN-0000019,TXN-0000019,1,2026-03-15,431265,GBP,Atlas Systems,INV-43901,0,,,,,,missing_bank,High,Ledger transaction absent from bank statement,,,2026-03-15
+EXT-0000001,EXT-0000001,0,,,,,,1,2026-03-23,40570,GBP,UNREC-000001,BNK-0004931,unexpected_bank,Medium,Bank transaction absent from ledger,,,2026-03-23
+EXT-0000002,EXT-0000002,0,,,,,,1,2026-01-26,83031,GBP,UNREC-000002,BNK-0004932,unexpected_bank,Medium,Bank transaction absent from ledger,,,2026-01-26

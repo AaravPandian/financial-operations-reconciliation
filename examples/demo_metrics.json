@@ -1,0 +1,20 @@
+{
+  "ledger_rows": 5020,
+  "unique_ledger_ids": 5000,
+  "case_count": 5060,
+  "matched": 4720,
+  "exceptions": 340,
+  "match_rate_pct": 94.4,
+  "matched_gbp_absolute_pence": 1181456128,
+  "bank_rows": 4990,
+  "classification_counts": {
+    "matched": 4720,
+    "missing_bank": 100,
+    "unexpected_bank": 60,
+    "amount_mismatch": 60,
+    "date_mismatch": 40,
+    "duplicate_bank": 30,
+    "currency_mismatch": 30,
+    "duplicate_ledger": 20
+  }
+}
